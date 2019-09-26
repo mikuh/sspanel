@@ -1,9 +1,9 @@
 # sspanel
 sspanel use django and support eth payment.
 
-just writing...
+just writing...next write the page and add models
 # install
-启动容器
+start container
 ```shell
 docker-compose up
 ```
