@@ -1,3 +1,6 @@
 Django>=2.0,<3.0
 markdown2===2.3.8
 psycopg2
+ecdsa
+sha3
+uuid
