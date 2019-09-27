@@ -21,10 +21,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('catalog/', include('console.urls')),
+    path('console/', include('console.urls')),
 ]
 
 urlpatterns += [
-    path('', RedirectView.as_view(url='/catalog/')),
+    path('', RedirectView.as_view(url='console/')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

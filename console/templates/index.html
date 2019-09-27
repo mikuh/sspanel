@@ -1,0 +1,349 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+   <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                            class="fas fa-download fa-sm text-white-50"></i> Download profile</a>
+                </div>
+
+                <!-- Content Row -->
+                <div class="row">
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Account
+                                            Level
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">Normal</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <svg t="1569555571065" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                             xmlns="http://www.w3.org/2000/svg" p-id="6609" width="48" height="48">
+                                            <path d="M497.5 641.8c5.8 4.7 14.3 3.9 19-1.9l183.1-223.3c4.7-5.8 3.9-14.3-1.9-19-5.8-4.7-14.3-3.9-19 1.9L495.6 622.8c-4.7 5.7-3.9 14.2 1.9 19z"
+                                                  fill="#8a8a8a" p-id="6610"></path>
+                                            <path d="M513.7 641.8c-5.8 4.7-14.3 3.9-19-1.9L311.6 416.6c-4.7-5.8-3.9-14.3 1.9-19 5.8-4.7 14.3-3.9 19 1.9l183.1 223.3c4.7 5.7 3.8 14.2-1.9 19z"
+                                                  fill="#8a8a8a" p-id="6611"></path>
+                                            <path d="M875.6 419.6L773.2 249c-4.9-8.1-13.7-13.1-23.1-13.1H275.9c-9.5 0-18.2 5-23.1 13.1L150.4 419.6c-5.9 9.8-5 22.1 2.3 30.9l128 156.5 0.2-0.2c2.4 3.7 6.4 6.2 11.1 6.2 7.5 0 13.5-6 13.5-13.5 0-3.2-1.3-6-3.1-8.3l0.2-0.1-129-157.7L276 262.7h474.2l102.4 170.7L513 848.5 370.8 674.7l-0.2 0.1c-2.5-2.9-6-4.9-10.2-4.9-7.4 0-13.5 6-13.5 13.5 0 2.6 0.9 4.9 2.2 7l-0.2 0.2L492 865.5c5.1 6.3 12.8 9.9 20.9 9.9 8.1 0 15.7-3.6 20.9-9.9l339.5-415c7.3-8.7 8.2-21.1 2.3-30.9z"
+                                                  fill="#8a8a8a" p-id="6612"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Balance
+                                            (Annual)
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">ETH 215,000</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <svg t="1569555460473" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                             xmlns="http://www.w3.org/2000/svg" p-id="5667" width="48" height="48">
+                                            <path d="M512 64.223v369.743l-267.095 83.14L512 64.223zM512 64.223v369.743l267.095 83.14L512 64.223zM512 959.777V702.502L244.905 555.207 512 959.777zM512 959.777V702.502l267.095-147.295L512 959.777z"
+                                                  fill="#707070" p-id="5668"></path>
+                                            <path d="M244.905 517.106L512 392.986v255.311L244.905 517.106zM779.095 517.106L512 392.986v255.311l267.095-131.191z"
+                                                  fill="#707070" p-id="5669"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Earnings (Monthly) Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-info shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Traffic
+                                            used(100GB/mo)
+                                        </div>
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col-auto">
+                                                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="progress progress-sm mr-2">
+                                                    <div class="progress-bar bg-info" role="progressbar"
+                                                         style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <svg t="1569556123202" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                             xmlns="http://www.w3.org/2000/svg" p-id="7507" width="48" height="48">
+                                            <path d="M727.552 614.912c-59.392 0-131.584-20.48-218.112-76.8-253.44-165.376-406.016-25.6-412.16-19.968-10.24 9.728-26.624 9.216-36.352-1.024s-9.216-26.112 1.024-35.84c2.048-2.048 48.128-45.568 130.56-65.024 74.752-17.92 195.584-18.432 345.088 79.36 219.136 142.848 321.536 25.088 370.688-31.232 8.704-9.728 14.848-16.896 20.992-22.016 11.264-8.704 27.136-6.656 35.84 4.096 8.704 11.264 6.656 27.136-4.096 35.84-2.56 2.048-8.704 9.216-14.336 15.36-32.256 37.888-101.376 117.248-219.136 117.248z"
+                                                  fill="#8a8a8a" p-id="7508"></path>
+                                            <path d="M512 2.56C231.424 2.56 3.584 229.888 3.584 510.976S231.424 1018.88 512 1018.88s508.416-227.328 508.416-508.416S793.088 2.56 512 2.56z m0 941.568c-239.616 0-433.664-194.048-433.664-433.664C78.336 270.848 272.384 76.8 512 76.8s433.664 194.048 433.664 433.664-194.048 433.664-433.664 433.664z"
+                                                  fill="#8a8a8a" p-id="7509"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pending Requests Card Example -->
+                    <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card-body">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col mr-2">
+                                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Online
+                                            equipment
+                                        </div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">0/5</div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <svg t="1569556240491" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                             xmlns="http://www.w3.org/2000/svg" p-id="8537" width="48" height="48">
+                                            <path d="M529.2 820.4c-37.4 0-74.8-9.1-104-27.3L240.5 677.7c-10.3-6.4-13.4-20-7-30.3s20-13.4 30.3-7l184.7 115.4c43.7 27.3 117.6 27.3 161.3 0l184.7-115.4c10.3-6.4 23.9-3.3 30.3 7 6.4 10.3 3.3 23.9-7 30.3L633.2 793.1c-29.2 18.2-66.6 27.3-104 27.3z"
+                                                  p-id="8538" fill="#8a8a8a"></path>
+                                            <path d="M529.2 662.8c-37.4 0-74.8-9.1-104-27.3L240.5 520.1c-31.3-19.6-48.6-46.7-48.6-76.4s17.3-56.8 48.6-76.4l184.7-115.4c58.3-36.4 149.7-36.5 208 0l184.7 115.4c31.3 19.6 48.6 46.7 48.6 76.4s-17.3 56.8-48.6 76.4L633.2 635.5c-29.2 18.2-66.6 27.3-104 27.3z m0-394.1c-29.4 0-58.8 6.8-80.7 20.5L263.9 404.7c-18 11.2-27.9 25.1-27.9 39s9.9 27.8 27.9 39l184.7 115.4c43.7 27.3 117.6 27.3 161.3 0l184.7-115.4c18-11.2 27.9-25.1 27.9-39s-9.9-27.8-27.9-39L609.9 289.3c-21.9-13.7-51.3-20.6-80.7-20.6z"
+                                                  p-id="8539" fill="#8a8a8a"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Row -->
+
+                <div class="row">
+
+                    <!-- Area Chart -->
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">Node rate</h6>
+                                <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                       aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                         aria-labelledby="dropdownMenuLink">
+                                        <div class="dropdown-header">Dropdown Header:</div>
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="chart-area">
+                                    <h4 class="small font-weight-bold">Server Migration <span
+                                            class="float-right">20%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
+                                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Sales Tracking <span
+                                            class="float-right">40%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
+                                             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Customer Database <span
+                                            class="float-right">60%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Payout Details <span
+                                            class="float-right">80%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
+                                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Account Setup <span
+                                            class="float-right">Complete!</span></h4>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pie Chart -->
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">Client Download</h6>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="chart-pie ">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Android</li>
+                                        <li class="list-group-item">Windows</li>
+                                        <li class="list-group-item">IOS</li>
+                                        <li class="list-group-item">Linux</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                       <div class="row">
+
+            <!-- Content Column -->
+            <div class="col-lg-6 mb-4">
+
+              <!-- Project Card Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                </div>
+                <div class="card-body">
+                  <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Color System -->
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-primary text-white shadow">
+                    <div class="card-body">
+                      Primary
+                      <div class="text-white-50 small">#4e73df</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-success text-white shadow">
+                    <div class="card-body">
+                      Success
+                      <div class="text-white-50 small">#1cc88a</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-info text-white shadow">
+                    <div class="card-body">
+                      Info
+                      <div class="text-white-50 small">#36b9cc</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-warning text-white shadow">
+                    <div class="card-body">
+                      Warning
+                      <div class="text-white-50 small">#f6c23e</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-danger text-white shadow">
+                    <div class="card-body">
+                      Danger
+                      <div class="text-white-50 small">#e74a3b</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-secondary text-white shadow">
+                    <div class="card-body">
+                      Secondary
+                      <div class="text-white-50 small">#858796</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    asdasd
+                  </div>
+                  <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
+                  <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+                </div>
+              </div>
+
+              <!-- Approach -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                </div>
+                <div class="card-body">
+                  <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
+                  <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+                <!-- End of Main Content -->
+
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; new ss panel 2019</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
+            </div>
+{% endblock %}
