@@ -1,5 +1,5 @@
 Django>=2.0,<3.0
-markdown2===2.3.8
+markdown2===2.4.0
 psycopg2
 ecdsa
 sha3
